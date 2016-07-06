@@ -20,8 +20,11 @@ public class WebAppInitializer implements WebApplicationInitializer {
 		WebApplicationContext context = getContext();
 		servletContext.addListener(new ContextLoaderListener(context));
 		ServletRegistration.Dynamic dispatcher = servletContext.addServlet("DispatcherServlet", new DispatcherServlet(context));
+		
 		dispatcher.setLoadOnStartup(1);
+		
 		dispatcher.addMapping("*.html");
+		dispatcher.addMapping("*.pdf");
 	}
 
 	private WebApplicationContext getContext() {
