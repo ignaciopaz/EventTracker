@@ -33,7 +33,7 @@
 		Spanish
 	</a>	
 
-	<form:form commandName="attendeeInfo">
+	<form:form commandName="attendee">
 		<form:errors path="*" cssClass="errorBlock" element="div" />
 		<label for="textInput1"><spring:message code="attendee.name"/>: </label>
 		<form:input path="name" cssErrorClass="error" />
