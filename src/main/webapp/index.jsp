@@ -7,6 +7,10 @@
 <title>Index</title>
 </head>
 <body>
-<h1>Hello!</h1>
+<h1>Hello ${myEventCommand.name}!</h1>
+
+<a href="event.html"> Add event>> </a>
+<br/>
+
 </body>
 </html>
