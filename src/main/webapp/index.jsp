@@ -11,6 +11,7 @@
 
 <a href="event.html"> Add event>> </a>
 <br/>
+<a href="attendee.html"> Add attendee>> </a>
 
 </body>
 </html>
